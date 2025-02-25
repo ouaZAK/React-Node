@@ -1,0 +1,52 @@
+.counter-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .count-display {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .button-group {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .increment {
+    background-color: var(--secondary-color);
+    color: white;
+  }
+  
+  .increment:hover {
+    background-color: #27ae60;
+  }
+  
+  .decrement {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .decrement:hover {
+    background-color: #c0392b;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
