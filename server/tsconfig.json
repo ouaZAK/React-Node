@@ -4,8 +4,10 @@
       "module": "commonjs",
       "strict": true,
       "esModuleInterop": true,
-      "outDir": "./dist"
+      "outDir": "./dist",
+      "allowJs": true,
+      "moduleResolution": "node"
     },
-    "include": ["**/*.ts"],
+    "include": ["**/*.ts", "db.js"],
     "exclude": ["node_modules"]
   }
